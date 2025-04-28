@@ -8,7 +8,7 @@ const AdminLayout = () => {
       {/* mobile sidebar */}
       <MobileSidebar />
       {/* desktop sidebar */}
-      <aside className="w-full max-w-[720px] hidden lg:block">
+      <aside className="w-full max-w-[270px] hidden lg:block">
         <SidebarComponent width={270} enableGestures={false}>
           <NavItems />
         </SidebarComponent>
